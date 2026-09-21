@@ -1,0 +1,54 @@
+# Environment & Secrets (CRITICAL)
+.env
+.env.*
+*.env
+!.env.example
+
+# Rust / Cargo artifacts
+/target/
+**/target/
+**/*.rs.bk
+
+# Python & uv virtual environments
+.venv/
+venv/
+env/
+ENV/
+.uv/
+
+# Python compiled bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.dylib
+*.dll
+
+# Python distribution & packaging
+build/
+dist/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+wheels/
+*.whl
+
+# Pytest & coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Jupyter & Marimo temporary files
+.ipynb_checkpoints/
+
+# IDE & OS specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

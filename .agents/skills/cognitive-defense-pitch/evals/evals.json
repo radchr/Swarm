@@ -1,0 +1,34 @@
+{
+  "skill_name": "cognitive-defense-pitch",
+  "description": "Evaluations for Cognitive Warfare and Cognitive EDR pitch deck generation with anti-slop verification.",
+  "evals": [
+    {
+      "id": "eval_01_sovereign_mod_pitch",
+      "prompt": "Створи інвестиційний план та 18 слайдів презентації для оборонного стартапу, що розробляє систему протидії когнітивним атакам для штабів НАТО на базі онтології другого порядку та шкали Admiralty.",
+      "expected_checks": [
+        "Enforces ISO 21448 SOTIF framework for unknown-unsafe risk reduction",
+        "Includes Lakkaraju explore-exploit bandit triage to solve analyst fatigue",
+        "Provides MTOC / CCI mathematical metrology without claiming magic truth detection",
+        "Outputs 18-slide structure with Navy Blue #1B3A6B and takeaway banners"
+      ]
+    },
+    {
+      "id": "eval_02_dual_use_critical_infra",
+      "prompt": "We are building an enterprise threat intelligence tool that protects energy grids from coordinated panic deepfakes. Create a 1-page investor memo and pitch plan for a $2M seed round.",
+      "expected_checks": [
+        "Positions as Cognitive EDR for critical infrastructure",
+        "Estimates TAM/SAM/SOM with realistic GovTech/Dual-Use ACV",
+        "Applies 8 anti-slop defense invariants to eliminate AI buzzwords"
+      ]
+    },
+    {
+      "id": "eval_03_anti_slop_pitch_audit",
+      "prompt": "Audit this pitch claim: 'Our AI uses generative transformers to autonomously detect 100% of Russian fake news before it spreads and changes public opinions with automated bots.'",
+      "expected_checks": [
+        "Flags miracle claim of 100% autonomous truth detection as Red Slop",
+        "Identifies backfire effect risk of counter-bot messaging (SEIZ+ boundary)",
+        "Reframes claim using SOTIF open-space risk bounding and defensive proving ground"
+      ]
+    }
+  ]
+}

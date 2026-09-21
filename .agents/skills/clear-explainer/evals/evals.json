@@ -1,0 +1,35 @@
+{
+  "skill_name": "clear-explainer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Поясни власні вектори людині, яка знає координати, але ще не вивчала матриці. Додай наочну схему й покажи, де інтуїтивна модель перестає працювати.",
+      "expected_output": "A faithful transformation example, an inspectable diagram, correct link to eigenvector/eigenvalue notation, and a meaningful limit of the picture.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Попереднє пояснення race condition не допомогло. Поясни інакше на маленькому прикладі та дай мені випадок, на якому я перевірю себе.",
+      "expected_output": "A changed representation of interleaving, precise causal sequence, and a new-case prediction with feedback.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Я розробник. Дуже коротко поясни, чому database index прискорює одні запити, але сповільнює запис.",
+      "expected_output": "Concise expert-calibrated explanation of lookup and update costs without a forced beginner ladder or quiz.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Хочу сам перевірити, чи розумію негативний зворотний зв'язок. Не пояснюй одразу — послухай мою версію і знайди прогалини.",
+      "expected_output": "Coaching prompt that elicits the learner's mechanism, with no premature lecture or claim of mastery.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Поясни негативний зворотний зв'язок на прикладі термостата й зроби просту інтерактивну модель: я змінюю задану температуру та бачу, як обігрівач реагує. Покажи, де ця модель спрощує реальність.",
+      "expected_output": "A working, inspectable interactive artifact whose controls reveal the feedback mechanism, with an explicit model assumption and transfer question.",
+      "files": []
+    }
+  ]
+}

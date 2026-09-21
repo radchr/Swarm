@@ -1,0 +1,23 @@
+{
+  "skill_name": "cognitive-warfare-manim-pitch",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Create a ten-page Ukrainian PDF plan for a three-minute CIT final-project pitch. I have a topic and three sources but no slide structure yet.",
+      "expected_output": "The workflow preserves placeholders, requests or records the missing structure, produces a ten-page timed plan, and does not invent evidence or use a fundraising template.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Turn my causal model of narrative exposure, belief update, and behavior into a scientific visual for page 4, using Manim CE.",
+      "expected_output": "A reproducible Manim CE scene plan or source with a decisive still frame, clear causal distinctions, provenance, and no decorative animation.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "Audit this cognitive-warfare deck before submission: ten slides, 178-second script, several uncited statistics, and an AI truth-detection claim.",
+      "expected_output": "The audit catches timing risk, unsupported statistics, the truth-detector overclaim, scientific visual issues, and the exact ten-page requirement.",
+      "files": []
+    }
+  ]
+}
